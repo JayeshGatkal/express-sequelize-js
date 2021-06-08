@@ -1,5 +1,5 @@
 const routes = require("express").Router();
-const db = require("../../models");
+const db = require("../models");
 
 routes.get("/", (req, res) => {
   db.Role.findAll({

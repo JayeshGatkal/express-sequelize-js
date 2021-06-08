@@ -2,9 +2,9 @@
   "name": "express-sequelize-js",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",

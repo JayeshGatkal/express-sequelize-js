@@ -1,5 +1,4 @@
 const express = require("express");
-const app = express();
 const userRoutes = require("./routes/user-route");
 const roleRoutes = require("./routes/role-route");
 const PORT = 8089;

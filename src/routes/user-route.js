@@ -1,6 +1,6 @@
 const express = require("express");
 const routes = express.Router();
-const db = require("../models");
+const db = require("../../models");
 
 routes.get("/:id", async (req, res) => {
   const user = await db.User.findByPk(req.params["id"]);
